@@ -2,9 +2,9 @@
 A project for displaying news about cryptocurrencies on the page and saving it in the database.
 
 ## Installation
-### Install Flask, SQLAlchemy, beautifulsoup4
+### Install Flask, SQLAlchemy, requests
 ```
-pip install flask, requests, Flask-SQLAlchemy, beautifulsoup4
+pip install flask, requests, Flask-SQLAlchemy
 ```
 Change path in test.py file to path where project located on your system
 
