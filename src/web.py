@@ -1,7 +1,10 @@
+from typing import Sequence
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask import request
 from requests import Request, Session, get
+from bs4 import BeautifulSoup
+import json
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:1234@localhost/News'
